@@ -139,7 +139,8 @@ The image shows a light-sensitive circuit built using an Arduino Uno, a photores
 
 ### Project Demo
 # Video]
-https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screen%20Recording%202025-08-09%20035648.mp4
+https://drive.google.com/file/d/1FC-5FpiQMrvffZpXH5_Hhz6xpGf5Zgyv/view?usp=drivesdk
+
 # Additional Demos
 [Add any extra demo materials/links]
 
