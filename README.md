@@ -97,9 +97,9 @@ The image shows a light-sensitive circuit built using an Arduino Uno, a photores
 
 
 # Diagrams
-![Workflow]()
-*Add caption explaining your workflow*
-
+![Workflow](https://github.com/Amrithasureshbabu/glowbulb/blob/main/workflow.png)
+Workflow Explanation
+This flowchart illustrates the decision-making process for a light-reactive bulb system. The system begins by detecting ambient light and reading its intensity. It then compares the light level to a predefined threshold.
 For Hardware:
 
 # Schematic & Circuit
