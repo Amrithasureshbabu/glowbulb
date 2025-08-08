@@ -1,54 +1,87 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# [GLOW IN LIGHT BULB] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [ZERO IMPACT]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [ABHINAND T] - [JYOTHI ENGINEERING COLLEGE]
+- Member 2: [AMRITHA SURESH BABU] - [JYOTHI ENGINEERING COLLEGE]
+  
 
 ### Project Description
-[2-3 lines about what your project does]
+[A light bulb that glows when it detects light. Yes, it turns on when it’s already bright. Because why not?
+]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[Too many devices turn on in the dark. What about those lonely bulbs that crave daylight? We’re solving the tragic neglect of bulbs during sunny hours]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[We built a system where a light bulb glows only when it senses ambient light. The brighter the environment, the brighter the bulb. It’s the ultimate attention-seeking appliance.
+]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [HTML ,CSS]
+- [Arduino IDE, GitHub]
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Light-dependent resistor (LDR)
+- Arduino Uno
+- Breadboard
+- Resistor
+- Bulb
 
 ### Implementation
 For Software:
+int value=0;
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(11, OUTPUT);
+  pinMode(A0, INPUT);
+}
+
+void loop()
+  
+{
+  
+  value= analogRead(A0);
+  
+  if(value<10)
+  {
+    digitalWrite(11, LOW);
+    Serial.println("Light OFF");
+    Serial.println(value);
+  }
+  else
+  {
+     digitalWrite(11, HIGH);
+    Serial.println("Light ON");
+    Serial.println(value);
+  }
+}
 # Installation
 [commands]
 
 # Run
-[commands]
+[- Connect the circuit
+- Upload code via Arduino IDE
+- Place it in sunlight and watch it glow like it’s showing off
+
+
+]
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
@@ -80,9 +113,9 @@ For Hardware:
 *Explain the final build*
 
 ### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+# Video]
+"C:\Users\amrit\Videos\Screen Recordings\Screen Recording 2025-08-09 035648.mp4"
+
 
 # Additional Demos
 [Add any extra demo materials/links]
