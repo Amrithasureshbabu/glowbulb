@@ -83,7 +83,7 @@ For Software:
 # Screenshots (Add at least 3)
 
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20035341.png)
 *Add caption explaining what this shows*
 
 ![Screenshot3](Add screenshot 3 here with proper name)
