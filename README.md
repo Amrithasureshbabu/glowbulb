@@ -103,11 +103,29 @@ The image shows a light-sensitive circuit built using an Arduino Uno, a photores
 For Hardware:
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
+![Circuit](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20035341.png)
 *Add caption explaining connections*
+The image shows a light-sensitive circuit built using an Arduino Uno, a photoresistor (LDR), and a light bulb. Here's how each part contributes:
+- Key Components
+- Arduino Uno: Acts as the brain of the system, reading light levels and controlling the bulb.
+- Photoresistor (LDR): Senses ambient light. Its resistance decreases as light increases.
+- Resistors: Used to create a voltage divider with the LDR, allowing the Arduino to read varying light levels.
+- Light Bulb: The star of the show—it glows when the LDR detects enough light.
+- Breadboard & Jumper Wires: For easy prototyping and connections.
+- USB Cable: Powers the Arduino and allows code upload.
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+![Schematic](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20041941.png)
+- Voltage Divider for Light Sensing
+- R3 and R2 form a voltage divider. The LDR (likely represented by R2) changes resistance based on light.
+- The voltage at the junction of R3 and R2 is fed into A0, the analog input pin on the Arduino.
+- Arduino Reads Light Level
+- The Arduino continuously reads the analog voltage at A0.
+- Based on the voltage, it determines the ambient light level.
+- Bulb Activation via D9
+- If the light level is above a certain threshold, the Arduino sends a HIGH signal to D9.
+- D9 controls the inductor (L1), which could be a relay coil or directly driving a bulb.
+- R1 limits current to protect the inductor and circuit.
+
 
 # Build Photos
 ![Components](Add photo of your components here)
