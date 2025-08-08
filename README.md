@@ -114,8 +114,7 @@ For Hardware:
 
 ### Project Demo
 # Video]
-"C:\Users\amrit\Videos\Screen Recordings\Screen Recording 2025-08-09 035648.mp4"
-
+https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screen%20Recording%202025-08-09%20035648.mp4
 
 # Additional Demos
 [Add any extra demo materials/links]
