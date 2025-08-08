@@ -84,10 +84,17 @@ For Software:
 
 
 ![Screenshot2](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20035341.png)
-*Add caption explaining what this shows*
+The image shows a light-sensitive circuit built using an Arduino Uno, a photoresistor (LDR), and a light bulb. Here's how each part contributes:
+- Key Components
+- Arduino Uno: Acts as the brain of the system, reading light levels and controlling the bulb.
+- Photoresistor (LDR): Senses ambient light. Its resistance decreases as light increases.
+- Resistors: Used to create a voltage divider with the LDR, allowing the Arduino to read varying light levels.
+- Light Bulb: The star of the show—it glows when the LDR detects enough light.
+- Breadboard & Jumper Wires: For easy prototyping and connections.
+- USB Cable: Powers the Arduino and allows code upload.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -115,7 +122,6 @@ For Hardware:
 ### Project Demo
 # Video]
 https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screen%20Recording%202025-08-09%20035648.mp4
-
 # Additional Demos
 [Add any extra demo materials/links]
 
