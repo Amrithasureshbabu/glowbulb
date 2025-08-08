@@ -97,7 +97,7 @@ The image shows a light-sensitive circuit built using an Arduino Uno, a photores
 
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
+![Workflow]()
 *Add caption explaining your workflow*
 
 For Hardware:
@@ -134,13 +134,20 @@ The image shows a light-sensitive circuit built using an Arduino Uno, a photores
 ![Components](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20043112.png)
 ![Components](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20043141.png)
 ![Components](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20043216.png)
-*List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
 
-![Final](Add photo of final product here)
+
+
+![Final](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20035341.png)
 *Explain the final build*
+- Arduino Uno: The microcontroller that reads light levels and controls the bulb.
+- LDR (Light Dependent Resistor): Senses the brightness of the environment.
+- Relay Module: Acts as a switch to control the high-voltage bulb using Arduino’s low-voltage signal.
+- LED Bulb (or any small light bulb): The output device that glows when triggered.
+- Resistors: Used in the voltage divider circuit with the LDR.
+- Breadboard & Jumper Wires: For prototyping and easy connections.
+- Power Supply: USB for Arduino and external power for the bulb.
+
 
 ### Project Demo
 # Video]
@@ -150,9 +157,10 @@ https://drive.google.com/file/d/1FC-5FpiQMrvffZpXH5_Hhz6xpGf5Zgyv/view?usp=drive
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Abhinand]: [- Circuit design, Arduino coding, concept ideation,Hardware setup]
+- [Amritha]: [testing, documentation,GitHub commits, hosting, video editing]
+   
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
