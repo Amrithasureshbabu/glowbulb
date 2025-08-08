@@ -1,72 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>GLOW IN LIGHT BULB</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #fff8dc;
       padding: 50px;
-      background-color: #fdf6e3;
     }
-    h1 {
-      font-size: 2.5em;
-      color: #ff9900;
-    }
-    .features {
-      margin: 30px 0;
-    }
-    .features li {
-      list-style: none;
-      margin: 10px 0;
-      font-size: 1.2em;
-    }
-    input[type="email"] {
-      padding: 10px;
-      font-size: 1em;
-      width: 250px;
-      margin-right: 10px;
-    }
-    button {
-      padding: 10px 20px;
-      font-size: 1em;
-      background-color: #ff9900;
-      color: white;
-      border: none;
+
+    #bulb {
+      font-size: 5rem;
+      animation: blink 1s infinite;
       cursor: pointer;
+      margin: 20px auto;
+      transition: transform 0.3s ease;
     }
-    button:hover {
-      background-color: #e68a00;
+
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
     }
-    footer {
-      margin-top: 50px;
-      font-size: 0.9em;
-      color: #888;
+
+    #popup {
+      display: none;
+      position: fixed;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      border: 2px solid #ff9900;
+      padding: 20px;
+      box-shadow: 0 0 10px #ff9900;
+      z-index: 1000;
+      font-size: 1.2rem;
+    }
+
+    #overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.5);
+      z-index: 999;
     }
   </style>
 </head>
 <body>
+
   <h1>💡 GLOW IN LIGHT BULB</h1>
   <p>Igniting ideas. Launching soon.</p>
-  <p><strong>Join the Waitlist</strong></p>
 
-  <section class="features">
-    <ul>
-      <li>✨ Bright ideas brought to life</li>
-      <li>🔧 Tools to build your vision</li>
-      <li>🌐 A community that glows together</li>
-    </ul>
-  </section>
+  <div id="bulb" onclick="showPopup()">💡</div>
 
-  <form onsubmit="event.preventDefault(); window.location.href='https://www.tinkercad.com/things/iSfKQpWwzki/editel?sharecode=0FTu77MexQJvraIbAcVX-DY8wP-et90-T69nVU1MRrQ';">
-    <input type="email" name="email" placeholder="Enter your email" required />
-    <button type="submit">Notify Me</button>
-  </form>
+  <div id="overlay"></div>
+  <div id="popup">
+    <p>The bulb is glowing with ideas!</p>
+  </div>
+
+  <p>Join the Waitlist ✨</p>
+  <p>Bright ideas brought to life</p>
+  <p>🔧 Tools to build your vision</p>
+  <p>🌐 A community that glows together</p>
+
+  
 
   <footer>
-    © 2025 GLOW IN LIGHT BULB. All rights reserved.
+    <p>© 2025 GLOW IN LIGHT BULB. All rights reserved.</p>
   </footer>
+    <form onsubmit="event.preventDefault(); window.location.href='https://www.tinkercad.com/things/iSfKQpWwzki/editel?sharecode=0FTu77MexQJvraIbAcVX-DY8wP-et90-T69nVU1MRrQ';">
+    <input type="email" name="email" placeholder="Enter your email" required />
+    <button type="submit">Log In</button>
+  </form>
+
+  <script>
+    function showPopup() {
+      document.getElementById("popup").style.display = "block";
+      document.getElementById("overlay").style.display = "block";
+      setTimeout(() => {
+        document.getElementById("popup").style.display = "none";
+        document.getElementById("overlay").style.display = "none";
+      }, 3000);
+    }
+  </script>
+
 </body>
 </html>
