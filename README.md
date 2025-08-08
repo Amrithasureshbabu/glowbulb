@@ -132,6 +132,7 @@ The image shows a light-sensitive circuit built using an Arduino Uno, a photores
 ![Components](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20043025.png)
 ![Components](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20043043.png)
 ![Components](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20043112.png)
+![Components](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20043141.png)
 ![Components]()
 *List out all components shown*
 
