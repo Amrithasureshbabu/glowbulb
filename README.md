@@ -128,7 +128,9 @@ The image shows a light-sensitive circuit built using an Arduino Uno, a photores
 
 
 # Build Photos
-![Components](Add photo of your components here)
+![Components]()
+![Components]()
+![Components]()
 *List out all components shown*
 
 ![Build](Add photos of build process here)
