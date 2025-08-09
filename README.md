@@ -101,7 +101,7 @@ This flowchart illustrates the decision-making process for a light-reactive bulb
 For Hardware:
 
 # Schematic & Circuit
-[Circuit]:(https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20035341.png)
+![Circuit](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20035341.png)
 *Add caption explaining connections*
 The image shows a light-sensitive circuit built using an Arduino Uno, a photoresistor (LDR), and a light bulb. Here's how each part contributes:
 - Key Components
@@ -112,7 +112,7 @@ The image shows a light-sensitive circuit built using an Arduino Uno, a photores
 - Breadboard & Jumper Wires: For easy prototyping and connections.
 - USB Cable: Powers the Arduino and allows code upload.
 
-[Schematic]:(https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20041941.png)
+![Schematic](https://github.com/Amrithasureshbabu/glowbulb/blob/main/Screenshot%202025-08-09%20041941.png)
 - Voltage Divider for Light Sensing
 - R3 and R2 form a voltage divider. The LDR (likely represented by R2) changes resistance based on light.
 - The voltage at the junction of R3 and R2 is fed into A0, the analog input pin on the Arduino.
